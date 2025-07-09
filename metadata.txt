@@ -1,0 +1,30 @@
+[general]
+name=KML para DXF
+qgisMinimumVersion=3.0
+description=Plugin para converter camadas KML em DXF preservando texto como atributos
+version=1.0
+author=Desenvolvedor QGIS
+email=desenvolvedor@email.com
+
+about=Este plugin permite converter camadas KML carregadas no QGIS para formato DXF, preservando os textos como atributos dos pontos. Ideal para trabalhar com dados que serão utilizados no AutoCAD. O plugin converte automaticamente geometrias de linha e polígono em pontos (usando centroide) e mantém o texto selecionado como atributo do ponto.
+
+tracker=https://github.com/seu-usuario/kml-to-dxf
+repository=https://github.com/seu-usuario/kml-to-dxf
+# End of mandatory metadata
+
+# Recommended items:
+hasProcessingProvider=no
+changelog=
+    1.0 - Versão inicial
+    - Conversão de KML para DXF
+    - Preservação de texto como atributos
+    - Suporte a pontos, linhas e polígonos
+
+tags=kml,dxf,autocad,conversion,export
+
+homepage=https://github.com/seu-usuario/kml-to-dxf
+category=Vector
+icon=icon.png
+experimental=False
+
+deprecated=False
